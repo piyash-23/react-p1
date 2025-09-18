@@ -8,6 +8,7 @@ function App() {
     <>
       <h1>React On the Go</h1>
       <Countries></Countries>
+      <h2>Welcome home</h2>
     </>
   );
 }
