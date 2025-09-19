@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   padding: 2rem;
 }
 
@@ -29,4 +28,24 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+.country {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-content: center;
+  row-gap: 15px;
+}
+
+.card {
+  border: 1px solid yellow;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+.visited {
+  background-color: #20a4f3;
+  color: #011627;
 }
